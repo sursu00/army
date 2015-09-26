@@ -15,8 +15,10 @@ namespace WpfApplication1
     /// <summary>
     /// Логика взаимодействия для Window1.xaml
     /// </summary>
+	
     public partial class Window1 : Window
     {
+		//TODO: переименовать всё
         public Window1()
         {
             InitializeComponent();
