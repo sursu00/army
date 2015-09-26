@@ -23,7 +23,7 @@ namespace WpfApplication1
             InitializeComponent();
             textBox1.Text = str.data;
             textBox2.Text = i.cnt.ToString();
-            textBox3.Text = (10 - i.cnt).ToString();
+            textBox3.Text = (10 - i.cnt).ToString();//comment :)
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
