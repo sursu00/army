@@ -1,0 +1,2 @@
+D:\git\army\army\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+D:\git\army\army\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
