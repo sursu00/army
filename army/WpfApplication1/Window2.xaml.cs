@@ -24,6 +24,8 @@ namespace WpfApplication1
             textBox1.Text = str.data;
             textBox2.Text = i.cnt.ToString();
             textBox3.Text = (10 - i.cnt).ToString();//comment//
+            textBox4.Text = Math.Ceiling(i.cnt / 2.0).ToString();
+            
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -36,6 +38,16 @@ namespace WpfApplication1
             if (passwordBox1.Password == str.passexit)
             {
                      App.Current.Shutdown();
+            }
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            if(passwordBox2.Password==str.passcheck)
+            { 
+                Window3 Window3=new Window3();
+                this.Close();
+                Window3.Show();
             }
         }
     }
