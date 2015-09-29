@@ -16,3 +16,5 @@ D:\git\army\army\WpfApplication1\obj\x86\Debug\WpfApplication1.Properties.Resour
 D:\git\army\army\WpfApplication1\obj\x86\Debug\army.csproj.GenerateResource.Cache
 D:\git\army\army\WpfApplication1\obj\x86\Debug\Window3.baml
 D:\git\army\army\WpfApplication1\obj\x86\Debug\Window3.g.cs
+C:\Users\Freeman\Documents\army\army\WpfApplication1\obj\x86\Debug\WpfApplication1.exe
+C:\Users\Freeman\Documents\army\army\WpfApplication1\obj\x86\Debug\WpfApplication1.pdb
