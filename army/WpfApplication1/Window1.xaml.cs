@@ -22,23 +22,15 @@ namespace WpfApplication1
         public Window1()
         {
             InitializeComponent();
-            textBox1.Text = "Answer1";
-            textBox2.Text = "Answer2";
-            textBox3.Text = "Answer3";
-            textBox4.Text = "Answer4";
+            AnswerA.Content = "Answer1";
+            AnswerB.Content = "Answer2";
+            AnswerC.Content = "Answer3";
+            AnswerD.Content = "Answer4";
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {   
-            i.numq++;
-            if (textBox1.Text=="Answer1" && radioButton1.IsChecked==true)
-                i.cnt++;
-            if (i.numq == 10)
-            {
-                this.Close();
-                Window2 Window2 = new Window2();
-                Window2.Show();
-            }
+            
         }
        
         

@@ -27,7 +27,7 @@ namespace WpfApplication1
         [Indexed, MaxLength(100)]
         public string Thname{ get; set; }
         [Indexed]
-        public int devision;
+        public int devision { get; set; }
     }
 
 
